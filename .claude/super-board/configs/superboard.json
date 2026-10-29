@@ -18,12 +18,24 @@
   },
   "repo": {
     "path": ".",
-    "remote": "https://github.com/EricTechPro/super-board"
+    "remote": "https://github.com/Ledmetal94/super-board"
   },
   "base_branch": "main",
   "timezone": "Europe/Rome",
-  "columns": ["Backlog", "Ready", "Building", "QA", "Review", "Blocked", "Done"],
-  "labels": ["qa", "bug", "feature"],
+  "columns": [
+    "Backlog",
+    "Ready",
+    "Building",
+    "QA",
+    "Review",
+    "Blocked",
+    "Done"
+  ],
+  "labels": [
+    "qa",
+    "bug",
+    "feature"
+  ],
   "paths": {
     "project_md": "docs/super-board/PROJECT.md",
     "pre_flight_md": "docs/super-board/pre-flight.md",
@@ -49,7 +61,11 @@
     "bash tests/run-safety.sh"
   ],
   "collect": {
-    "sources": ["github", "prs", "architecture"],
+    "sources": [
+      "github",
+      "prs",
+      "architecture"
+    ],
     "window_days": 14,
     "prs": {
       "max_prs": 200
