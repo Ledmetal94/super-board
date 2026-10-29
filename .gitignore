@@ -38,3 +38,18 @@ docs/super-board/runs/**/*.trace.zip
 
 # claude plugin eval output
 evals/results/
+
+# local self-install (bash install.sh .)
+/.agents/
+/.claude/bin/
+/.claude/hooks/
+/.claude/skills/
+/.claude/workflows/
+/.claude/settings.json.bak-*
+
+# super-board onboard scratch (answers resume a re-run; staged files are pre-approval)
+.claude/super-board/onboard-answers.json
+.claude/super-board/onboard-staged/
+.claude/super-board/backup/
+.claude/super-board/upgrade.json
+skills-lock.json
